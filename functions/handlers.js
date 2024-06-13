@@ -1,5 +1,5 @@
 const status = "AUTOMATIC";
-const botName = "🌇 MULTI MUSIX ";
+const botName = "🌇 bad boys ";
 const rtxText = "bad boys";
 const version = "Latest@ v1.7"; 
 const startTime = Date.now();
