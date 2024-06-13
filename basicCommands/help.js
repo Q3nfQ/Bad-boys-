@@ -14,10 +14,10 @@ module.exports = {
       .setAuthor({
         name: 'Im here to Help!',
         iconURL: 'https://cdn.discordapp.com/attachments/1175487983915376662/1175667506791325706/communication.png?ex=656c10b0&is=65599bb0&hm=e378f1b355a2401bcab504b08a0766001d6b7c090c91ce0a7a7a87c868feb955&', 
-        url: 'https://discord.gg/FUEHs7RCqz'
+        url: 'https://discord.gg/b-b'
     })
      
-      .setDescription(`__**STATS :**__\n\n> **📊 Bot in servers:** ${serverCount}\n> **🟢 Bot Ping:** ${botPing}ms\n> **👑 Made By [GlaceYT](https://www.youtube.com/channel/UCPbAvYWBgnYhliJa1BIrv0A)**\n\n__**COMMANDS :**__ `)
+      .setDescription(`__**STATS :**__\n\n> **📊 Bot in servers:** ${serverCount}\n> **🟢 Bot Ping:** ${botPing}ms\n> **👑 Made By [Bad boys]**\n\n__**COMMANDS :**__ `)
       .addFields(
       
         {
@@ -57,21 +57,21 @@ module.exports = {
         }
       )
       .setThumbnail(botUser.avatarURL({ dynamic: true, format: 'png', size: 1024 }))
-      .setImage(`https://cdn.discordapp.com/attachments/1113800537402527903/1236803979996958740/11.png?ex=6641e8b7&is=66409737&hm=96f69ba8bcde4ca44bf8713e22001e0bafad0335cfd1f57c439a34b4762f0e03&`);
+      .setImage(`https://cdn.discordapp.com/attachments/1163577871265185865/1247388207402844261/standard_2.gif?ex=666c5e8b&is=666b0d0b&hm=8ac6dfdd1788dfb68a663e36ec98bd262b1147280045e03874f8e829b600623d&`);
 
     const button1 = new ButtonBuilder()
       .setLabel('YouTube')
-      .setURL('https://www.youtube.com/channel/UCPbAvYWBgnYhliJa1BIrv0A')
+      .setURL('https://www.youtube.com)
       .setStyle(ButtonStyle.Link);
 
     const button2 = new ButtonBuilder()
       .setLabel('Discord')
-      .setURL('https://discord.gg/xQF9f9yUEM')
+      .setURL('https://discord.gg/b-b')
       .setStyle(ButtonStyle.Link);
 
     const button3 = new ButtonBuilder()
       .setLabel('Code')
-      .setURL('https://github.com/GlaceYT')
+      .setURL('https://github.com/Q3nfQ/Bad-boys-')
       .setStyle(ButtonStyle.Link);
       
     const row = new ActionRowBuilder()
