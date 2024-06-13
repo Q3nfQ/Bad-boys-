@@ -33,7 +33,7 @@ module.exports = {
 
 /*
 
-   MADE BY RTX!! FEEL FREE TO USE ANY PART OF CODE
+   MADE BY bad boys!! FEEL FREE TO USE ANY PART OF CODE
 
   ██████╗░████████╗██╗░░██╗           
   ██╔══██╗╚══██╔══╝╚██╗██╔╝          
@@ -45,9 +45,8 @@ module.exports = {
    FOR EMOJIS EITHER YOU CAN EDIT OR JOIN OUR DISCORD SERVER 
    SO WE ADD BOT TO OUR SERVER SO YOU GET ANIMATED EMOJIS.
 
-   DISCORD SERVER : https://discord.gg/FUEHs7RCqz
-   YOUTUBE : https://www.youtube.com/channel/UCPbAvYWBgnYhliJa1BIrv0A
+   DISCORD SERVER : https://discord.gg/b-b
 
    FOR HELP CONTACT ME ON DISCORD
-   ## Contact    [ DISCORD SERVER :  https://discord.gg/c4kaW2sSbm ]
+   ## Contact    [ DISCORD SERVER :  https://discord.gg/b-b ]
 */
