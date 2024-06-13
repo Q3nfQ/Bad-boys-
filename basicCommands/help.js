@@ -1,18 +1,29 @@
-const { EmbedBuilder, ActionRowBuilder, ButtonBuilder } = require('discord.js');
-const { ButtonStyle } = require('discord.js');
-const db = require("../mongodb");
+const { EmbedBuilder } = require('discord.js');
+
+
 module.exports = {
-  name: 'help',
-  aliases: ['hlp', 'h'],
-  description: 'Shows a list of available commands',
-  execute(message, args) {
-    const botUser = message.client.user;
-    const botPing = Date.now() - message.createdTimestamp;
-    const serverCount = message.client.guilds.cache.size;
-    const embed = new EmbedBuilder()
-      .setColor('#2b71ec')
-      .setAuthor({
-        name: 'Im here to Help!',
+  name: "help",
+  description: "Get information about the bot",
+  permissions: "0x0000000000000800",
+  options: [],
+  run: async (client, interaction) => {
+    try {
+     
+
+      const embed = new EmbedBuilder()
+         .setColor('#0099ff')
+      .setTitle('💎 bad boys Bot')
+      .setDescription('Welcome to the Music Bot!\n\n- Here are the available commands:\n\n' +
+        '**/play :** Start playing the songs.\n' +
+        '**/ping :** check bot latency.\n' +
+        '**/support :** Display support server info');
+
+      return interaction.reply({ embeds: [embed] });
+    } catch (e) {
+    console.error(e); 
+  }
+  },
+
         iconURL: 'https://cdn.discordapp.com/attachments/1175487983915376662/1175667506791325706/communication.png?ex=656c10b0&is=65599bb0&hm=e378f1b355a2401bcab504b08a0766001d6b7c090c91ce0a7a7a87c868feb955&', 
         url: 'https://discord.gg/b-b'
     })
