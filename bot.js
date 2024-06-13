@@ -243,7 +243,7 @@ client.riffy.on("trackStart", async (player, track) => {
     const musicard = await Classic({
         thumbnailImage: track.info.thumbnail,
         backgroundColor: "#070707",
-        backgroundImage: "https://cdn.discordapp.com/attachments/1220001571228880917/1220001571690123284/01.png?ex=660d5a01&is=65fae501&hm=a8cfb44844e61aa0fd01767cd363af048df28966c30d7b04a59f27fa45cf69c4&",
+        backgroundImage: "https://cdn.discordapp.com/attachments/1163577871265185865/1247388207402844261/standard_2.gif?ex=666c5e8b&is=666b0d0b&hm=8ac6dfdd1788dfb68a663e36ec98bd262b1147280045e03874f8e829b600623d&",
         nameColor: "#FF7A00",
         progressColor: "#FF7A00",
         progressBarColor: "#5F2D00",
