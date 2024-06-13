@@ -20,7 +20,8 @@ module.exports = {
 		message.reply({ embeds: [embed] });
 	},
 };
-
+*/
+	
 ╔════════════════════════════════════════════════════════════════════════╗
 ║                                                                        ║
 ║  ## Created by BAD boys                                              ║
