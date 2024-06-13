@@ -34,7 +34,7 @@ client.on("messageCreate", async (message) => {
     const args = message.content.slice(1).trim().split(" ");
     const command = args.shift().toLowerCase();
   
-    if (command === "play") {
+    if (command === "p") {
         const query = args.join(" ");
         const player = client.riffy.createConnection({
             guildId: message.guild.id,
@@ -292,7 +292,7 @@ client.riffy.on("queueEnd", async (player) => {
           name: 'Queue Ended!',
           url: 'https://discord.gg/B-B'
         })
-          .setDescription('**Bye Bye!, No more songs to play...**');
+          .setDescription('**Bye Bye!, ...**');
           channel.send({ embeds: [embed] });
       
     }
